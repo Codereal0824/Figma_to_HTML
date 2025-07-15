@@ -6,7 +6,7 @@ html {
   font-size: 62.5%;
 }
 :root {
-  --font-heading: "Sen ", sans-serif;
+  --font-heading: "Sen", sans-serif;
   --primary-color: #ffb900;
 }
 /* khôi phục lại cỡ chữ mặc định theo rem */
@@ -213,6 +213,10 @@ a {
   align-items: center;
 }
 .hero-cta {
+  color: #fff;
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 600;
   line-height: 64px;
   min-width: 180px;
   background-color: var(--primary-color);
@@ -369,8 +373,14 @@ a {
   padding: 96px 0;
   background: #2e2100;
 }
-.feedback-item {
+.feedback-list {
   display: flex;
+  overflow: hidden;
+}
+.feedback-item {
+  width: 100%;
+  display: flex;
+  flex-shrink: 0;
 }
 .feedback-item .avartar {
   width: 72px;
