@@ -20,16 +20,14 @@ a {
   line-height: 50px;
   color: #fff;
   text-align: center;
-
   font-size: 1.6rem;
-
   font-weight: 600;
   border-radius: 24.5px;
   background: #171100;
 }
 .main-content {
   width: 1170px;
-  min-width: calc(100% - 48px);
+  max-width: calc(100% - 48px);
   margin-left: auto;
   margin-right: auto;
 }
